@@ -51,7 +51,7 @@ class Argument
     public static function i()
     {
         $class = __CLASS__;
-        return new $class($message, $code);
+        return new $class();
     }
     
     /**
